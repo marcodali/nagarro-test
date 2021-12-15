@@ -5,7 +5,7 @@
 npm install
 ```
 
-## To run the tets
+## Run all the test cases
 ```
 npm test
 ```
