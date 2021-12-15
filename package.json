@@ -1,0 +1,16 @@
+{
+  "name": "nagarro",
+  "version": "1.0.0",
+  "description": "nagarro test",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "author": "ricardo@durazno.io",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jest": "^27.4.5"
+  }
+}
