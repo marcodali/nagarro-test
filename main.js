@@ -17,7 +17,7 @@ function transform(word) {
     return result;
 }
 
-function parse(sentence) {
+export default function parse(sentence) {
     const words = sentence.split(' ');
     const moreWords = [];
     words.forEach((word) => {
@@ -39,6 +39,3 @@ function parse(sentence) {
     });
     return moreWords.map((word) => transform(word));
 }
-
-console.log(parse('Smáoth Crimßinal is c*_olmλçantis'));    // ['Sm',  'o1h', 'C2m', 'i2l', 'is',  'c', 'o1m', 'a3s']
-console.log(parse('Smooth Criminal is cool'));  // [ 'S3h', 'C5l', 'is', 'c1l' ]

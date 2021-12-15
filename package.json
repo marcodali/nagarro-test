@@ -7,10 +7,19 @@
     "start": "node main.js",
     "test": "jest"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
   "author": "ricardo@durazno.io",
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "babel-jest": "^27.4.5",
     "jest": "^27.4.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5"
   }
 }
